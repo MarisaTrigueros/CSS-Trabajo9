@@ -1,0 +1,51 @@
+.navBar{
+    background-color: #242B2F;
+    color: rgb(236, 236, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+h3 { 
+
+    font-size: small;
+    display: inline;
+}
+
+a{
+    font-size: smaller;
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+
+li{
+    display: inline;
+    font-size: smaller;
+}
+
+nav form {
+    display: inline;
+    float:right;
+    margin-right: 2vw;
+    margin-bottom: 1vw;
+}
+
+button{
+    background-color: transparent;
+    color: rgb(29, 142, 65);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px rgb(29, 142, 65) solid;
+    padding: 0.3vw;
+    border-radius: 10%;
+}
+
+button:hover{
+    background-color: rgb(29, 142, 65);
+    color: white;
+}
+
+button:active {
+    background-color: rgba(29, 142, 65, 0.8);
+}
+
